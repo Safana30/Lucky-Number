@@ -1,0 +1,46 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "19ba0883febdb93ec7c8318723138d43",
+    "entities": [
+      {
+        "tableName": "numbers",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`1 in 100` INTEGER NOT NULL, `2 in 100` INTEGER NOT NULL, `3 in 100` INTEGER NOT NULL, PRIMARY KEY(`1 in 100`))",
+        "fields": [
+          {
+            "fieldPath": "num",
+            "columnName": "1 in 100",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "num2",
+            "columnName": "2 in 100",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "num3",
+            "columnName": "3 in 100",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "1 in 100"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '19ba0883febdb93ec7c8318723138d43')"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:minWidth="400dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Theme"
+        android:layout_marginLeft="10dp"
+        android:textSize="25sp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <RadioGroup
+        android:id="@+id/Radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+       <RadioButton
+           android:id="@+id/Rbtn_default"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="System default"
+           android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/Rbtn_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Light"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/Rbtn_dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dark"
+            android:textSize="20sp"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cancel"
+            android:textSize="25sp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:layout_margin="20dp" />
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ok"
+            android:layout_margin="20dp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -3,8 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/LuckyNum/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/Kotlin Apps/LuckyNum/app/src/main/res/drawable/ic_baseline_color_lens_24.xml" value="0.2" />
+        <entry key="..\:/Kotlin Apps/LuckyNum/app/src/main/res/layout-v23/dialog_custom.xml" value="0.75" />
+        <entry key="..\:/Kotlin Apps/LuckyNum/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Kotlin Apps/LuckyNum/app/src/main/res/layout/activity_second.xml" value="0.20416666666666666" />
+        <entry key="..\:/Kotlin Apps/LuckyNum/app/src/main/res/layout/custom_dialog.xml" value="0.1852355072463768" />
+        <entry key="..\:/Kotlin Apps/LuckyNum/app/src/main/res/layout/dialog_custom.xml" value="0.25" />
+        <entry key="..\:/Kotlin Apps/LuckyNum/app/src/main/res/layout/recyclerview_items.xml" value="0.20416666666666666" />
+        <entry key="..\:/Kotlin Apps/LuckyNum/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/LuckyNum/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/LuckyNum/app/src/main/res/layout/activity_second.xml" value="0.1" />
         <entry key="..\:/LuckyNum/app/src/main/res/layout/fragment.xml" value="0.6759868421052632" />
+        <entry key="..\:/LuckyNum/app/src/main/res/layout/recyclerViewItems.xml" value="0.1" />
+        <entry key="..\:/LuckyNum/app/src/main/res/layout/recyclerview.xml" value="0.14" />
+        <entry key="..\:/LuckyNum/app/src/main/res/layout/recyclerview_items.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
